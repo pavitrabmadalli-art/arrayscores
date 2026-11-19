@@ -23,6 +23,8 @@ def main():
     print(f"Scores: {scores}")
     print(f"Sum: {total:g}")
     print(f"Average: {average:g}")
+    print(f"Maximum: {max(scores):g}")
+    print(f"Minimum: {min(scores):g}")
     
 if __name__ == "__main__":
     main()
